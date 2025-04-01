@@ -1,6 +1,6 @@
 # Curvature Visualizator
 
-![curvature](source/resources/curvature.png)
+![Curvature](source/resources/curvature.png)
 
 I must give credit to the amazing [Primer on Bézier curves](https://pomax.github.io/bezierinfo/) and [SpeedPunk](https://github.com/yanone/speedpunk), as they were instrumental in creating this repository. Although it may appear similar, the code is tailored specifically to its creator, making it more intuitive to use. Additionally, it only operates within the RoboFont environment, which simplifies the process. Thanks to this, incorporating support for quadratic curves was a straightforward task, unlike SpeedPunk, which currently lacks this feature.
 
@@ -9,7 +9,7 @@ I must give credit to the amazing [Primer on Bézier curves](https://pomax.githu
 
 Basically, it adds a checkbox button to the **Display…** menu of the Glyph Edit Window.
 
-![menu_item](source/resources/menu_item.png)
+![Menu Item](source/resources/menu_item.png)
 
 All you need to do is activate it.
 
