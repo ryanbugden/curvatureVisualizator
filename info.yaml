@@ -1,0 +1,14 @@
+name: Curvature Visualizator
+developer: Rafał Buchner
+developerURL: http://github.com/rafalbuchner
+launchAtStartUp: true
+mainScript: curvatureVisualizatorSubscriber.py
+version: 0.7b
+addToMenu:
+- path: curvatureVisualizatorSettings.py
+  preferredName: Settings...
+  shortKey: ""
+html: true
+timeStamp: 1740170834
+requiresVersionMajor: '4'
+requiresVersionMinor: '2'

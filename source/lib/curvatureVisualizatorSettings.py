@@ -15,7 +15,7 @@ from mojo.extensions import (
 __DEBUG__ = True
 
 def getDefaultsFromYaml():
-    bundle = ExtensionBundle("CurvatureVisualizator")
+    bundle = ExtensionBundle("Curvature Visualizator")
     settings_file = bundle.getResourceFilePath("defaults",ext='yaml')
     stream = open(settings_file, 'r')
     settings_dictionary = yaml_load_ordered(stream)
@@ -256,7 +256,7 @@ def ExtensionSettingsWindowController(*args, **kwargs):
 
 # from mojo.UI import OutputWindow
 # OutputWindow().clear()
-# ExtensionSettingsWindow()
+ExtensionSettingsWindow()
 # if __name__ == "__main__" and "RoboFont" not in sys.executable:
 #     from vanilla.test.testTools import executeVanillaTest
 #     executeVanillaTest(ExtensionSettingsWindow, **dict(defaults=__defaults__))
