@@ -254,9 +254,6 @@ def ExtensionSettingsWindowController(*args, **kwargs):
     else:
         _ExtensionwSettingsWindowController(*args, **kwargs)
 
-# from mojo.UI import OutputWindow
-# OutputWindow().clear()
-ExtensionSettingsWindow()
-# if __name__ == "__main__" and "RoboFont" not in sys.executable:
-#     from vanilla.test.testTools import executeVanillaTest
-#     executeVanillaTest(ExtensionSettingsWindow, **dict(defaults=__defaults__))
+
+if __name__ == "__main__":
+    ExtensionSettingsWindow()

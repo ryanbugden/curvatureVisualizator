@@ -7,6 +7,7 @@ from fontTools.misc.transform import Transform
 from displaySubscriber import DisplaySuscriber
 from mojo import subscriber, events
 from mojo.pens import DecomposePointPen
+from mojo.subscriber import registerGlyphEditorSubscriber
 from merz import MerzPen
 from curvatureVisualizatorSettings import (
     internalGetDefault,
@@ -266,11 +267,4 @@ class CurvatureVisualizatorSubscriber(DisplaySuscriber):
 
 
 
-# try:
-# from extensionsSettings import registerDefaultsToExtensionsSettings, registerExtensionDefaults
-
-# except:
-#     from curvatureVisualizator.curvatureVisualizatorSettings import __defaults__, ExtensionSettingsWindow, extensionName
-#     ExtensionSettingsWindow(__defaults__, extensionName)
-
-#     # I should add this to the menu
+registerGlyphEditorSubscriber(CurvatureVisualizatorSubscriber)
