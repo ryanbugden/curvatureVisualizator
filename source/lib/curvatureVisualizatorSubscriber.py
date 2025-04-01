@@ -1,14 +1,14 @@
-from curvatureVisualizator.curvatureGlyph_merz import CurvaturePen
+from curvatureGlyph_merz import CurvaturePen
 import vanilla as vui
 from AppKit import NSRoundRectBezelStyle
 from fontParts.world import RGlyph
 from fontTools.pens.transformPen import TransformPointPen, TransformPen
 from fontTools.misc.transform import Transform
-from curvatureVisualizator.displaySubscriber import DisplaySuscriber
+from displaySubscriber import DisplaySuscriber
 from mojo import subscriber, events
 from mojo.pens import DecomposePointPen
 from merz import MerzPen
-from curvatureVisualizator.curvatureVisualizatorSettings import (
+from curvatureVisualizatorSettings import (
     internalGetDefault,
     internalSetDefault,
     extensionKeyStub,

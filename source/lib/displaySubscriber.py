@@ -1,7 +1,7 @@
 from vanilla.vanillaBase import VanillaCallbackWrapper
 from mojo.subscriber import Subscriber
 from AppKit import NSMenuItem
-from curvatureVisualizator.curvatureVisualizatorSettings import (
+from curvatureVisualizatorSettings import (
     internalGetDefault,
     internalSetDefault,
     extensionID
